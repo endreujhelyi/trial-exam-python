@@ -53,5 +53,12 @@ RETURN the value of SUM_LETTER
 ### How can you get a random number in python? [2p]
 #### Your answer:
 
+* the 'random' in-built module must be imported first
+* after use the randint function what is for integers
+* and I give the top and the bottom numbers where it generates randomly an integers from
+
+--> randint(1, 100): this will be generate a random number between 1 and 100
+
+
 ### What does M stand for in MVC? [2p]
 #### Your answer:
