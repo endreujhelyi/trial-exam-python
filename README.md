@@ -27,6 +27,29 @@ The application is accepted if:
 ### Explain the algorithm used in exercise 2. Use a flowchart, structogram or pseudo code. [2p]
 #### Your answer:
 
+Ok, so I write pseudocode explain my solution.
+
+
+LETTER_COUNTER method gets an input FILE_NAME:
+
+created a LETTER variable with a string value 'a', what letter is looked for
+
+SUM_LETTER variable counts the occurences of LETTER in FILE_NAME
+
+IF the path of FILE_NAME not valid:
+  - RETURN 0 value
+
+ELSE the path is valid:
+  - stored the opened file in the TEXT variable
+  - FOR each LINE of the TEXT:
+    - FOR every CHARACTER in the LINE:
+      - IF CHARACTER is equal LETTER ('a'):
+        - increase SUM_LETTER with 1
+  - close the opened FILE_NAME
+RETURN the value of SUM_LETTER
+
+
+
 ### How can you get a random number in python? [2p]
 #### Your answer:
 
