@@ -60,5 +60,8 @@ RETURN the value of SUM_LETTER
 --> randint(1, 100): this will be generate a random number between 1 and 100
 
 
+
 ### What does M stand for in MVC? [2p]
 #### Your answer:
+
+The M like MODEL illustrate the main structure of the MVC pattern. All of the logical structure of data and everything what influence or modify it are here. Like a mindless worker who gets the orders from the Boss (Controller) and execute them without questioning.
